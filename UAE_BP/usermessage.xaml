@@ -1,0 +1,23 @@
+<A0:c6009bb40067465c5773a8a5653a585e1 xmlns:A0="clr-namespace:A" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:UAE_BP">
+	<Grid>
+		<Border
+			Name="messagPanel"
+			VerticalAlignment="Top"
+			Height="40"
+			Background="#FFDC143C">
+			<TextBlock
+				Margin="20,0,0,0"
+				VerticalAlignment="Center"
+				HorizontalAlignment="Left"
+				Foreground="#FFFFFFFF">
+				<Run
+					Text="Information      |      "
+					FontSize="14"
+					FontFamily="{StaticResource FontStyle_1}" /> <Run
+					Name="txtMessage"
+					Text="Welcome Please Login for Contenue."
+					FontSize="12"
+					FontFamily="{StaticResource FontStyle_1}" /></TextBlock>
+		</Border>
+	</Grid>
+</A0:c6009bb40067465c5773a8a5653a585e1>
